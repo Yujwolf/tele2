@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новые тарифы: «Бiрге» и «Бiрге Плюс»</title>
+  <style>
+    /* Основные стили */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f0f4ff, #ffffff);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      color: #222;
+    }
+
+    p,
+    ul {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Стили для шапки */
+    .header {
+      background: linear-gradient(135deg, #2196f3, #21cbf3);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .header p {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    .header img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 220px;
+      height: auto;
+      pointer-events: none;
+    }
+
+    /* Контейнер */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Таблица тарифов */
+    .tariffs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    .tariffs-table th,
+    .tariffs-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .tariffs-table th {
+      background-color: #2196f3;
+      color: #fff;
+      text-align: center;
+    }
+
+    .tariffs-table td {
+      background-color: #f9f9f9;
+    }
+
+    .tariffs-table .highlight {
+      background-color: #21cbf3;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Стоимость */
+    .pricing {
+      background: linear-gradient(to bottom, #21cbf3, #2196f3);
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+      border-radius: 20px;
+      margin: 40px 0;
+    }
+
+    .pricing h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .pricing p {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .pricing a {
+      display: inline-block;
+      background: #fff;
+      color: #2196f3;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .pricing a:hover {
+      background: #1976d2;
+      color: #fff;
+    }
+
+    /* Скрываем картинку на смартфонах */
+  @media (max-width: 768px) {
+    .header img {
+      display: none;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <h1>Новые тарифы</h1>
+    <p>«Бiрге» и «Бiрге Плюс» доступны для подключения с 18.09.2023!</p>
+    <img src="banner_header2.png" alt="Пример изображения">
+  </header>
+
+  <!-- Основные особенности -->
+  <section class="container">
+    <h2>Подробности тарифных планов</h2>
+    <p>Два новых тарифных плана, доступные для подключения B2C клиентам Altel.</p>
+    <table class="tariffs-table">
+      <thead>
+        <tr>
+          <th>Название ТП</th>
+          <th>«Бiрге»</th>
+          <th>«Бiрге Плюс»</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Стоимость</td>
+          <td>5990 тг / 30 дней</td>
+          <td>8990 тг / 30 дней</td>
+        </tr>
+        <tr class="highlight">
+          <td colspan="3">Ресурсы для МВВ-устройств (роутеров и модемов)</td>
+        </tr>
+        <tr>
+          <td>Интернет*</td>
+          <td>4G/5G Безлимит (1000 ГБ*)</td>
+          <td>4G/5G Безлимит</td>
+        </tr>
+        <tr>
+          <td>Количество номеров, подключаемых по услуге «Делись ресурсами»</td>
+          <td>+1 номер Altel</td>
+          <td>+2 номера Altel</td>
+        </tr>
+        <tr class="highlight">
+          <td colspan="3">Ресурсы для смартфонов на каждый доп. номер</td>
+        </tr>
+        <tr>
+          <td>Интернет*</td>
+          <td>4G/5G Безлимит</td>
+          <td>4G/5G Безлимит</td>
+        </tr>
+        <tr>
+          <td>Звонки внутри сети Tele2 и Altel</td>
+          <td>Безлимит</td>
+          <td>Безлимит</td>
+        </tr>
+        <tr>
+          <td>Звонки на номера других операторов РК</td>
+          <td colspan="2">120 минут</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: center; font-size: 0.9rem;">
+            * Общий порог интернет-трафика для роутера и смартфона: при превышении 1000 ГБ скорость интернета снижается
+            до 5 Мбит/сек.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Стоимость -->
+  <section class="pricing">
+    <h2>Подключайте сейчас!</h2>
+    <p>Наслаждайтесь всеми преимуществами новых тарифов.</p>
+    <!-- Кнопка для скачивания файла -->
+    <a href="tariffs.docx" download="Тарифы.docx">Подробнее о тарифах</a>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="container" style="text-align: center; margin-top: 50px; padding: 20px;">
+    <p>&copy; 2024 Altel. Все права защищены.</p>
+  </footer>
+</body>
+
+</html>
